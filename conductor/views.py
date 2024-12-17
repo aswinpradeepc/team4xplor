@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def conductor_login(request):
     return render(request, 'conductor/login.html')
+
+def ticket_view(request):
+    return render(request, 'conductor/ticket.html')
