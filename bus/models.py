@@ -1,7 +1,6 @@
 from django.db import models
 import uuid
 
-
 # Create your models here.
 class Busstop(models.Model):
     stopname = models.CharField(max_length=50)
